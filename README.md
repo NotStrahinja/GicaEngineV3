@@ -1,5 +1,10 @@
 # GicaEngineV3
 
+![Static Badge](https://img.shields.io/badge/Version-1.3-blue) ![Static Badge](https://img.shields.io/badge/License-GNU_General_Public_License_V3.0-green)
+
+
+
+
 ## Sta je GicaEngine V3?
 GicaEngine V3 je game engine napisan u C++.
 
