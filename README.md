@@ -190,4 +190,4 @@ Prosto pokreni `build_msvc.bat` fajl i sve ce se odraditi samo. Nastace novi fol
 - [ZLib](https://zlib.net/)
 - [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo)
 - [tinyxml2](https://github.com/leethomason/tinyxml2)
-- [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) (ne Debug niti Release, nego ono trece, zaboravio sam kako se zove :P)
+- [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) (Release x64)
