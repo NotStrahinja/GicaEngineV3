@@ -27,6 +27,7 @@ GameMain.cpp ce main.rpf automatski dekompresovati i drzati u memoriji, tako da 
 Main.rpf sadrzi XML fajl koji sadrzi sve informacije o sceni.
 GameMain.cpp moze se izmeniti, ali glavni su **OnInit** i **OnUpdate** funkcije.
 GameMain.cpp takodje sadrzi i neophodne funkcije za dobijanje modela, tekstura, svetala, UI elemenata, itd. kako bi ih menjali.
+Krajnji projekat bice u "out" folderu, gde je potrebno pokrenuti `build.bat` fajl ponovo, i igrica ce biti u "build" folderu.
 U demonstraciji moze se videti vise o tome.
 
 ## Demonstracija
@@ -176,3 +177,17 @@ Primer (kao i u primeru sa kutijom):
 Ovaj kod svaki frame (OnUpdate) menja poziciju svetla "Point Light" za `step`.
 
 Isto radi, isti je princip.
+
+## Kako kompajlirati?
+
+Prosto pokreni `build_msvc.bat` fajl i sve ce se odraditi samo. Nastace novi folder, "build". Unutar njega, "Release", i tu ce biti GameMain.exe i main.rpf. Takodje, potrebne su sledece biblioteke kompajlirane samostalno uz pomoc Visual Studia:
+
+- [GLFW](https://github.com/glfw/glfw)
+- [glm](https://github.com/g-truc/glm)
+- [DirectXTex](https://github.com/microsoft/DirectXTex)
+- [DirectXTK](https://github.com/microsoft/DirectXTK)
+- [ImGui](https://github.com/ocornut/imgui)
+- [ZLib](https://zlib.net/)
+- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo)
+- [tinyxml2](https://github.com/leethomason/tinyxml2)
+- [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) (ne Debug niti Release, nego ono trece, zaboravio sam kako se zove :P)
