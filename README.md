@@ -12,7 +12,7 @@ GicaEngine V3 je game engine napisan u C++.
 - [Funkcije](#funkcije)
 - [Kompajliranje (proces)](#kompajliranje-proces)
 - [Demonstracija](#demonstracija)
-- [GameMain.cpp i funkcije](#gamemain.cpp-i-funkcije)
+- [GameMain.cpp i funkcije](#gamemaincpp-i-funkcije)
 - [Kako kompajlirati?](#kako-kompajlirati)
 
 ## Funkcije
