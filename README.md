@@ -1,6 +1,6 @@
 # GicaEngineV3
 
-![Static Badge](https://img.shields.io/badge/Version-1.3-blue) ![Static Badge](https://img.shields.io/badge/License-GNU_General_Public_License_V3.0-green)
+![Static Badge](https://img.shields.io/badge/Version-3.0-blue) ![Static Badge](https://img.shields.io/badge/License-GNU_General_Public_License_V3.0-green)
 
 
 
