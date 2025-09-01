@@ -8,6 +8,13 @@
 ## Sta je GicaEngine V3?
 GicaEngine V3 je game engine napisan u C++.
 
+## Sadrzaj
+- [Funkcije](github.com/NotStrahinja/GicaEngineV3#Funkcije)
+- [Kompajliranje (proces)](github.com/NotStrahinja/GicaEngineV3#Kompajliranje)
+- [Demonstracija](github.com/NotStrahinja/GicaEngineV3#Demonstracija)
+- [GameMain.cpp i funkcije](github.com/NotStrahinja/GicaEngineV3#GameMain.cpp%20i%20funkcije)
+- [Kako kompajlirati?](github.com/NotStrahinja/GicaEngineV3#Kako%20kompajlirati?)
+
 ## Funkcije
 
 - [X] GUI sa ImGui
@@ -20,7 +27,7 @@ GicaEngine V3 je game engine napisan u C++.
 - [X] Fizika, koristeci PhysX
 - [X] Vise kamera
 
-## Kompajliranje
+## Kompajliranje (proces)
 Tokom kompilacije, program ce automatski generisati GameMain.cpp kod koji ima sve funkcije potrebne za igricu.
 Program ce takodje sve modele i teksture kompresovati u jedan fajl, main.rpf.
 GameMain.cpp ce main.rpf automatski dekompresovati i drzati u memoriji, tako da izvlacenje modela i tekstura iz igrice skoro nemoguce (ukoliko ne znas strukturu fajla).
