@@ -198,3 +198,5 @@ Prosto pokreni `build_msvc.bat` fajl i sve ce se odraditi samo. Nastace novi fol
 - [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo)
 - [tinyxml2](https://github.com/leethomason/tinyxml2)
 - [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) (Release x64)
+
+*Takodje imate i kompajliran program u [Releases](https://github.com/NotStrahinja/GicaEngineV3/releases/tag/V3.0)*
