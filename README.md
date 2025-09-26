@@ -18,7 +18,7 @@ GicaEngine V3 je game engine napisan u C++.
 ## Funkcije
 
 - [X] GUI sa ImGui
-- [X] Ucitavanje .obj modela (i to sa sobstvenim parser-om)
+- [X] Ucitavanje .obj modela (i to sa sopstvenim parser-om)
 - [X] Ucitavanje tekstura
 - [X] UI elementi u igrici (za sad dugmici i tekst)
 - [X] Kompajliranje igrice
